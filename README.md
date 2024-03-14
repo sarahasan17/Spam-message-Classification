@@ -50,7 +50,7 @@ Evaluating the model's performance using accuracy, classification report, and co
 Prediction of spam or ham label for new messages.
 
 ## Results
-The model achieves an accuracy of approximately X% on the test dataset.
+The model achieves an accuracy of approximately 97.2% on the test dataset.
 
 ## Credits
 This project is inspired by various resources and tutorials on NLP and spam message detection.
