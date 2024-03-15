@@ -18,8 +18,10 @@ To install TensorFlow, use the following command in bash:
 ## Clone the repository:
 git clone https://github.com/sarahasan17/Spam-message-Classification.git
 
-## Execute the Python script:
-python spam_detection.py
+## Using streamlit
+python model.py
+python prediction.py
+streamlit run app.py
 
 ## Description
 The project consists of the following steps:
@@ -54,3 +56,8 @@ The model achieves an accuracy of approximately 97.2% on the test dataset.
 
 ## Credits
 This project is inspired by various resources and tutorials on NLP and spam message detection.
+
+## STREAMLIT SNIPPETS
+![image](https://github.com/sarahasan17/SpamSnap/assets/103211125/7b571c0d-934c-4bdb-8323-13d83080801b)
+<img width="953" alt="spam-1" src="https://github.com/sarahasan17/SpamSnap/assets/103211125/9366d8c6-d661-4ba8-bfdb-b353e971e283">
+
