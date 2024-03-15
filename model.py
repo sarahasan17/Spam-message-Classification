@@ -79,8 +79,8 @@ msg_train, msg_test, label_train, label_test = \
 train_test_split(messages_tfidf, data['v1'], test_size=0.2)
 
 clf = MultinomialNB()
-spam_detect_model = clf.fit(msg_train, label_train)
-
+clf.fit(msg_train, label_train)
+#transformed_data = clf.transform(msg_test)
 #predict_train = spam_detect_model.predict(msg_train)
 #metrics.accuracy_score(label_train, predict_train)
 joblib.dump(clf,"model.sav")
