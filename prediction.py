@@ -7,7 +7,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-vectorizer = CountVectorizer()
+vectorizer = joblib.load('vectorizer.joblib')
 
 def predict(data):
     trans = vectorizer.transform(pd.DataFrame(data)[0])
