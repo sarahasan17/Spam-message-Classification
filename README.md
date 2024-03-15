@@ -1,4 +1,4 @@
-# SPAM MESSAGE CLASSIFICATION
+# SPAMSNAP: Spam Message Classifier
 Spam Message Detection using NLP and TensorFlow
 
 This repository contains code for building a spam message detection model using Natural Language Processing (NLP) techniques and TensorFlow. The model is trained on a dataset containing spam and non-spam (ham) messages.
