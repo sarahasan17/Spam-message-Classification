@@ -84,6 +84,7 @@ clf.fit(msg_train, label_train)
 #predict_train = spam_detect_model.predict(msg_train)
 #metrics.accuracy_score(label_train, predict_train)
 joblib.dump(clf,"model.sav")
+joblib.dump(vectorizer, 'vectorizer.joblib')
 
 
 
